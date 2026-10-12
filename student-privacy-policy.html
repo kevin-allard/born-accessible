@@ -1,4 +1,6 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Student Privacy Policy | Carnegie Learning</title><style>
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Student Privacy Policy | Carnegie Learning</title><style>
 :root{--ink:#101223;--blue:#4264d9;--light:#edeef2;--line:#d3d6df;--muted:#4d5260}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Roboto,Arial,Helvetica,sans-serif;line-height:1.65;background:#fff}
 a{color:#2848b2;text-underline-offset:3px}.wrap{width:min(1040px,calc(100% - 64px));margin:auto}
@@ -10,11 +12,158 @@ p{margin:0 0 17px}.meta{font-weight:700;margin-bottom:26px}.legal-note{backgroun
 ul,ol{padding-left:26px;margin:0 0 20px}li{margin:7px 0}.policy-body{max-width:900px}.policy-body strong{font-weight:700}.policy-body table{border-collapse:collapse;width:100%;margin:24px 0}.policy-body td,.policy-body th{border:1px solid var(--line);padding:10px;vertical-align:top}
 footer{border-top:1px solid var(--line);background:#f5f6f9;padding:28px 0;font-size:13px;color:var(--muted)}
 @media(max-width:700px){.wrap{width:calc(100% - 36px)}main{padding-top:38px}.header-inner{align-items:flex-start;flex-direction:column;padding:18px 0;gap:8px}}
-</style></head><body>
-<header><div class="header-inner wrap"><a class="back" href="index.html#privacy-practices">← Back to Our Commitments</a><span>Carnegie Learning</span></div></header>
-<main><div class="wrap"><p class="eyebrow">Our Commitments</p><h1>Student Privacy Policy</h1><div class="policy-body"><p>Student Privacy Policy</p>
-<p><strong>CARNEGIE LEARNING STUDENT PRIVACY POLICY</strong></p>
-<p>Updated and Effective: [<strong><mark>INSERT POSTING
+</style><style>
+:root{--navy:#101223;--blue:#4264d9;--blue-dark:#2848b2;--gray:#edeef2;--line:#d8dbe3;--white:#fff}
+.commitments-header{border-top:7px solid var(--navy);background:#fff;box-shadow:0 2px 7px #10122318;position:sticky;top:0;z-index:50}
+.commitments-top{min-height:82px;display:flex;align-items:center;gap:28px}
+.commitments-brand{font-family:Arial,Helvetica,sans-serif;font-weight:800;letter-spacing:.04em;line-height:.9;color:var(--navy);text-decoration:none;font-size:17px;white-space:nowrap}
+.commitments-brand span{display:block}
+.commitments-mainnav{display:flex;gap:26px;margin-left:auto;align-items:center}
+.commitments-mainnav a{font-weight:700;text-decoration:none;color:var(--navy);font-size:14px}
+.commitments-mainnav a:hover{color:var(--blue-dark)}
+.commitment-level{background:var(--gray);border-top:1px solid #e2e4ea;border-bottom:1px solid var(--line)}
+.commitment-level .wrap{display:flex;gap:32px;overflow:auto;scrollbar-width:thin}
+.commitment-level a{display:block;padding:16px 0 12px;border-bottom:4px solid transparent;color:var(--navy);font-weight:700;text-decoration:none;font-size:14px;white-space:nowrap}
+.commitment-level a.active{color:var(--blue-dark);border-bottom-color:var(--blue)}
+.privacy-level{background:#fff;border-bottom:1px solid var(--line)}
+.privacy-level .wrap{display:flex;gap:30px;overflow:auto;scrollbar-width:thin}
+.privacy-level a{display:block;padding:13px 0 10px;border-bottom:3px solid transparent;color:var(--navy);font-weight:700;text-decoration:none;font-size:14px;white-space:nowrap}
+.privacy-level a:hover,.privacy-level a.active{color:var(--blue-dark);border-bottom-color:var(--blue)}
+.policy-backline{font-size:13px;color:var(--muted);margin-bottom:12px}
+@media(max-width:760px){.commitments-mainnav{display:none}.commitments-top{min-height:68px}.commitment-level .wrap,.privacy-level .wrap{gap:22px}}
+@media print{.commitments-header{display:none}}
+</style><style>[id]{scroll-margin-top:190px}</style><style id="policy-visual-polish">
+/* Policy page hierarchy aligned with the Privacy Policy */
+.policy-body{max-width:920px}
+.policy-body>h2{font-family:Rockwell,'Iowan Old Style',Georgia,serif;font-weight:400;font-size:31px;line-height:1.18;letter-spacing:-.015em;margin:54px 0 18px;padding-top:18px;border-top:1px solid var(--line);color:var(--ink);text-transform:none}
+.policy-body>h3{font-family:Roboto,Arial,Helvetica,sans-serif;font-weight:700;font-size:19px;line-height:1.35;margin:30px 0 10px;color:var(--ink);letter-spacing:0;text-transform:none}
+.policy-body>h4{font-family:Roboto,Arial,Helvetica,sans-serif;font-weight:700;font-size:17px;line-height:1.35;margin:24px 0 8px;color:var(--ink);text-transform:none}
+.policy-body>p{max-width:860px}
+.policy-body>h3 + p,.policy-body>h4 + p{margin-top:0}
+.policy-intro{font-size:17px;line-height:1.72;color:var(--ink)}
+.policy-meta{font-weight:700;color:var(--muted);margin-bottom:24px}
+.policy-callout{background:#f6f7fa;border-left:4px solid var(--blue);padding:18px 22px;margin:24px 0 30px}
+.policy-callout p:last-child{margin-bottom:0}
+[id]{scroll-margin-top:190px}
+
+/* Table of contents */
+.policy-body>h2.toc-heading{border-top:0;padding-top:0;margin-top:42px}
+.toc{margin:18px 0 48px;padding:26px 28px;background:#f6f7fa;border-top:3px solid var(--blue);border-radius:2px}
+.toc ol{list-style:none;counter-reset:policy-toc;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px;margin:0;padding:0}
+.toc li{counter-increment:policy-toc;display:grid;grid-template-columns:2.1em 1fr;align-items:start;margin:0;padding:9px 0;border-bottom:1px solid #e4e6ec;line-height:1.42}
+.toc li::before{content:counter(policy-toc) ".";font-weight:700;color:#2848b2}
+.toc a{font-weight:600;text-decoration:none;color:var(--ink);line-height:1.42}
+.toc a:hover{text-decoration:underline;text-underline-offset:3px;color:#2848b2}
+
+/* Readable lists */
+.policy-body ul,.policy-body ol{max-width:860px}
+.policy-body li{line-height:1.55}
+.policy-body ul.clean-list{padding-left:28px;margin:8px 0 26px}
+.policy-body ul.clean-list li{margin:8px 0}
+
+/* Notice / legal emphasis without looking like converted source */
+.important-note{background:#f6f7fa;border-left:4px solid var(--blue);padding:20px 22px;margin:24px 0 34px}
+.important-note p:last-child{margin-bottom:0}
+
+@media(max-width:760px){
+  .toc ol{grid-template-columns:1fr}
+  .toc{padding:20px}
+  .toc li{grid-template-columns:2em 1fr}
+  .policy-body>h2{font-size:27px}
+}
+</style><style id="unified-commitments-policy-style">
+/* Unified Our Commitments sub-site chrome and policy-page layout */
+:root{
+  --navy:#101223;--blue:#4264d9;--blue-dark:#2848b2;--sky:#cfe3f3;
+  --gray:#edeef2;--line:#d8dbe3;--text:#101223;--muted:#515564;--white:#fff;--max:1170px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6;background:#fff}
+a{color:var(--blue-dark)}
+a:hover{text-decoration:none}
+a:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+.wrap{width:min(var(--max),calc(100% - 64px));margin:0 auto}
+.site-header{border-top:7px solid var(--navy);background:#fff;box-shadow:0 2px 7px #10122318;position:sticky;top:0;z-index:50}
+.site-header__inner{height:94px;display:flex;align-items:center;gap:34px}
+.logo{display:flex;align-items:center;text-decoration:none;flex:0 0 auto;height:auto;overflow:visible}
+.logo img{display:block;width:170px!important;height:auto!important;max-width:none!important;max-height:none!important;object-fit:contain}
+.main-nav{display:flex;align-items:center;gap:30px;margin-left:auto}
+.main-nav a{font-weight:700;text-decoration:none;color:var(--navy);font-size:15px}
+.main-nav a:hover,.main-nav a.current{color:var(--blue-dark)}
+.talk{border:2px solid var(--navy);border-radius:28px;padding:10px 20px;color:var(--navy)!important;text-transform:uppercase;letter-spacing:.04em;font-size:13px!important}
+.menu-btn{display:none;margin-left:auto;background:transparent;border:1px solid var(--line);padding:8px 11px}
+.commitment-nav{background:var(--gray);border-top:1px solid #e2e4ea;border-bottom:1px solid var(--line)}
+.commitment-tabs{display:flex;gap:34px;overflow:auto;scrollbar-width:thin}
+.commitment-tab{display:block;border-bottom:4px solid transparent;padding:17px 0 13px;font-weight:700;color:var(--navy);font-size:14px;white-space:nowrap;text-decoration:none}
+.commitment-tab:hover,.commitment-tab.active{border-bottom-color:var(--blue);color:var(--blue-dark);text-decoration:none}
+.privacy-level{background:#fff;border-bottom:1px solid var(--line)}
+.privacy-level .wrap{display:flex;gap:30px;overflow:auto;scrollbar-width:thin}
+.privacy-level a{display:block;padding:13px 0 10px;border-bottom:3px solid transparent;color:var(--navy);font-weight:700;text-decoration:none;font-size:14px;white-space:nowrap}
+.privacy-level a:hover,.privacy-level a.active{color:var(--blue-dark);border-bottom-color:var(--blue)}
+
+.policy-main{padding:58px 0 84px}
+.policy-shell{max-width:1030px}
+.policy-shell>.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:12px;font-weight:700;color:var(--blue-dark);margin:0 0 14px}
+.policy-shell>h1{font-family:'circe-slab-a',Rockwell,'Iowan Old Style',Georgia,serif;font-weight:400;color:var(--navy);letter-spacing:-.025em;font-size:clamp(44px,5vw,62px);line-height:1.06;margin:0 0 24px}
+.policy-body{max-width:none!important;margin:0!important}
+.policy-body p,.policy-body li{font-size:16px;line-height:1.68}
+.policy-body>p,.policy-body>ul,.policy-body>ol,.policy-body>div:not(.toc):not(.important-note):not(.policy-callout){max-width:930px}
+.policy-body h2{font-family:'circe-slab-a',Rockwell,'Iowan Old Style',Georgia,serif;font-weight:400;color:var(--navy);letter-spacing:-.015em;font-size:30px;line-height:1.2;margin:48px 0 16px;padding-top:28px;border-top:1px solid var(--line);text-transform:none!important}
+.policy-body h3{font-family:Arial,Helvetica,sans-serif;color:var(--navy);font-size:20px;line-height:1.35;margin:30px 0 10px;text-transform:none!important}
+.policy-body h4{font-family:Arial,Helvetica,sans-serif;color:var(--navy);font-size:17px;line-height:1.4;margin:26px 0 8px;text-transform:none!important}
+.policy-body ul,.policy-body ol{padding-left:26px}
+.policy-body li{margin:7px 0}
+.meta,.policy-meta{color:var(--muted);font-weight:600}
+.legal-note,.important-note,.policy-callout{max-width:930px;background:#f6f7fa;border-left:4px solid var(--blue);padding:18px 22px;margin:22px 0 30px}
+
+/* Shared TOC treatment */
+.policy-body h2.toc-heading,.policy-body>h2:first-of-type.toc-heading{border-top:0;padding-top:0;margin-top:42px}
+.toc{max-width:1030px;margin:18px 0 48px;padding:26px 28px;background:#f6f7fa;border-top:3px solid var(--blue);border-radius:2px}
+.toc ol{list-style:none;counter-reset:policy-toc;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px;margin:0;padding:0;max-width:none!important}
+.toc li{counter-increment:policy-toc;display:grid;grid-template-columns:2.1em 1fr;align-items:start;margin:0;padding:9px 0;border-bottom:1px solid #e4e6ec;line-height:1.42}
+.toc li::before{content:counter(policy-toc) ".";font-weight:700;color:var(--blue-dark)}
+.toc a{font-weight:600;text-decoration:none;color:var(--navy);line-height:1.42}
+.toc a:hover{text-decoration:underline;text-underline-offset:3px;color:var(--blue-dark)}
+[id]{scroll-margin-top:205px}
+
+footer{border-top:1px solid var(--line);background:#f5f6f9;padding:28px 0;font-size:13px;color:var(--muted)}
+
+@media(max-width:980px){
+  .main-nav{display:none}.menu-btn{display:block}.site-header__inner{height:82px}.logo img{width:155px!important}
+}
+@media(max-width:760px){
+  .wrap{width:calc(100% - 36px)}.commitment-tabs,.privacy-level .wrap{gap:22px}
+  .policy-main{padding-top:40px}.toc ol{grid-template-columns:1fr}.toc{padding:20px}.toc li{grid-template-columns:2em 1fr}
+  .policy-body h2{font-size:27px}.policy-shell>h1{font-size:42px}
+}
+@media print{.site-header{display:none}.policy-main{padding-top:0}.wrap{width:100%}.policy-shell{max-width:none}}
+</style></head><body><header class="site-header">
+<div class="site-header__inner wrap">
+<a aria-label="Carnegie Learning home" class="logo" href="https://www.carnegielearning.com/"><img alt="Carnegie Learning" src="data:image/webp;base64,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"/></a>
+<button aria-label="Open menu" class="menu-btn" type="button">Menu</button>
+<nav aria-label="Main navigation" class="main-nav">
+<a href="https://www.carnegielearning.com/solutions">Solutions</a>
+<a href="https://www.carnegielearning.com/why-cl/">Our Difference</a>
+<a class="current" href="index.html#privacy-practices">Our Commitments</a>
+<a href="https://www.carnegielearning.com/company/">Company</a>
+<a class="talk" href="https://www.carnegielearning.com/contact-us/">Let's Talk</a>
+</nav></div>
+<div class="commitment-nav"><nav aria-label="Our Commitments" class="commitment-tabs wrap">
+<a class="commitment-tab" href="index.html#accessibility">Accessibility</a>
+<a class="commitment-tab" href="index.html#responsible-ai">Responsible AI</a>
+<a aria-current="page" class="commitment-tab active" href="index.html#privacy-practices">Privacy Policies &amp; Practices</a>
+<a class="commitment-tab" href="index.html#security-practices">Security Practices</a>
+</nav></div>
+<nav aria-label="Privacy policies and practices" class="privacy-level"><div class="wrap">
+<a href="index.html#privacy-practices">Overview</a>
+<a class="" href="privacy-policy.html">Privacy Policy</a>
+<a aria-current="page" class="active" href="student-privacy-policy.html">Student Privacy Policy</a>
+<a class="" href="terms-of-use.html">Terms of Use</a>
+</div></nav></header>
+<main class="policy-main"><div class="wrap policy-shell"><p class="eyebrow">Our Commitments</p><h1>Student Privacy Policy</h1><div class="policy-body">
+<h3>Carnegie Learning Student Privacy Policy</h3>
+<p class="policy-meta">Updated and Effective: [<strong><mark>INSERT POSTING
 DATE]</mark></strong></p>
 <p>This Privacy Policy applies to the collection of information from
 students by Carnegie Learning, Inc. (“Carnegie Learning”) through
@@ -24,11 +173,8 @@ online services, and that post a link to or include this Privacy Policy
 (collectively, our “Learning Platforms”). This Privacy Policy also
 applies to any student information we collect offline in connection with
 use of the Learning Platforms.</p>
-<p><strong>For more information about Carnegie Learning’s responsible
-use of artificial intelligence, please review Carnegie Learning’s
-Approach to AI</strong>
-(index.html#responsible-ai)<strong>.</strong></p>
-<p><strong>OVERVIEW</strong></p>
+<p class="policy-callout"><strong>For more information about Carnegie Learning’s responsible use of artificial intelligence, please review <a href="index.html#responsible-ai">Responsible AI</a>.</strong></p>
+<h2 class="toc-heading">Table of Contents</h2><nav aria-label="Table of Contents" class="toc"><ol><li><a href="#overview">Overview</a></li><li><a href="#students-younger-than-13">Students Younger than 13</a></li><li><a href="#what-information-do-we-collect">What Information Do We Collect?</a></li><li><a href="#how-does-carnegie-learning-use-information-collected-about-students">How Does Carnegie Learning Use Information Collected about Students?</a></li><li><a href="#how-does-carnegie-learning-share-information-collected-about-students">How Does Carnegie Learning Share Information Collected about Students?</a></li><li><a href="#third-party-analytics-services">Third-Party Analytics Services</a></li><li><a href="#accessing-modifying-and-deleting-your-information">Accessing, Modifying, and Deleting Your Information</a></li><li><a href="#data-retention">Data Retention</a></li><li><a href="#security">Security</a></li><li><a href="#third-party-links-or-content">Third-Party Links or Content</a></li><li><a href="#consent-to-transfer-of-data">Consent to Transfer of Data</a></li><li><a href="#contact-us">Contact Us</a></li><li><a href="#accessing-the-learning-platforms-through-private-provider">Accessing the Learning Platforms through Private Provider</a></li><li><a href="#information-for-california-residents">Information for California Residents</a></li></ol></nav><h2 id="overview">Overview</h2>
 <p>The Learning Platforms include teaching and learning resources
 designed for students in pre-K through college. Typically students will
 access the Learning Platforms through agreements Carnegie Learning has
@@ -48,10 +194,9 @@ disclose, and store student information in order to provide learning
 services through the Learning Platforms and on behalf of Schools and
 only in the ways permitted by the applicable School agreement.</p>
 <p>Certain students may obtain access through Private Providers. If you
-are accessing the Learning Platforms through a Private Provider, <a
-href="https://www.carnegielearning.com/student-privacy-policy#accessing_the_learning_platforms_through_private_provider"><u>please
+are accessing the Learning Platforms through a Private Provider, <a href="student-privacy-policy.html#accessing-the-learning-platforms-through-private-provider"><u>please
 see below for additional information</u></a>.</p>
-<p><strong>Students Younger than 13</strong></p>
+<h2 id="students-younger-than-13">Students Younger than 13</h2>
 <p>Some students that access our Learning Platforms may be younger than
 the age of 13 (“Children”) and the online collection of personal
 information from those students may therefore be subject to the
@@ -65,10 +210,9 @@ on the parents’ behalf. We limit the use of information about Children
 to the educational context authorized by the contracting School. If you
 are the parent of a Child who uses our Learning Platforms through
 his/her/their School and have questions about our privacy practices,
-please contact us as indicated in the “<a
-href="https://www.carnegielearning.com/student-privacy-policy#contact_us"><u>Contact
+please contact us as indicated in the “<a href="student-privacy-policy.html#contact-us"><u>Contact
 Us</u></a>” section below.</p>
-<p><strong>What Information Do We Collect?</strong></p>
+<h2 id="what-information-do-we-collect">What Information Do We Collect?</h2>
 <p>We may collect information from you directly, automatically when you
 visit the Learning Platforms, and sometimes from third parties, such as
 your teacher or School administrator. Some of this information may be
@@ -87,11 +231,10 @@ Privacy Policy. We maintain and use de-identified data without
 attempting to re-identify it, except where permitted by applicable law,
 such as to determine whether our de-identification processes satisfy
 legal requirements.</p>
-<p><em><strong>Information collected directly from students and
-Schools</strong></em></p>
+<h3 id="information-collected-directly-from-students-and-schools">Information collected directly from students and Schools</h3>
 <p>Carnegie Learning may ask you to provide certain information to us
 directly, depending on which product(s) you are using, including:</p>
-<ul>
+<ul class="clean-list">
 <li><p>Full Name</p></li>
 <li><p>Date of Birth</p></li>
 <li><p>Email address</p></li>
@@ -126,8 +269,7 @@ and will do so after providing notice to you and obtaining your consent
 to the extent such notice and consent is required by applicable
 law.</p></li>
 </ul>
-<p><em><strong>Information collected automatically through use of the
-Learning Platforms</strong></em></p>
+<h3 id="information-collected-automatically-through-use-of-the-learning-platforms">Information collected automatically through use of the Learning Platforms</h3>
 <p>In addition to any personal information that you choose to submit to
 the Learning Platforms, we and our third-party service providers may use
 a variety of technologies that automatically or passively collect
@@ -136,7 +278,7 @@ Platforms, including persistent identifiers which can be used to
 recognize a user over time and across different websites or online
 services ("Usage Information"). Usage Information may include the
 following, among other information:</p>
-<ul>
+<ul class="clean-list">
 <li><p>Web browser type and version</p></li>
 <li><p>Operating system</p></li>
 <li><p>All pages and activities viewed on the Learning
@@ -164,41 +306,13 @@ other purpose, except as permitted under COPPA to provide support the
 internal operations of the Learning Platforms.</p>
 <p>The technologies that may be used to collect Usage Information
 include the following:</p>
-<p><em><strong>Cookies.</strong></em> When you use our Learning
-Platforms, Carnegie Learning may store data in “cookies” or similar
-technology on your devices, which are data files placed on your computer
-or other device when you visit the Learning Platforms or otherwise
-access our online content.  Carnegie Learning may use cookies for many
-purposes, including, without limitation, to remember you and your
-preferences, to collect information about how you use our Learning
-Platforms, personalize content within the Learning Platforms, and track
-the pages you’ve visited. We use both session and persistent cookies
-(which remain on your computer after the browser has been closed). This
-information allows us to customize your Carnegie Learning experience so
-that your visit is as relevant and as valuable to you as possible.</p>
-<p>For more information on cookies, visit <a
-href="http://www.allaboutcookies.org/"><u>http://www.allaboutcookies.org</u></a>.</p>
-<p><em><strong>Web Beacons.</strong></em> We may use web beacons (small
-graphic images or other web programming code, also known as "1x1 GIFs"
-or "clear GIFs") and similar technologies on our Learning Platforms. Web
-beacons can recognize certain types of information on your computer such
-as cookies, the time and date a page is viewed, and a description of the
-page where the web beacon is placed. Web beacons or similar technologies
-may be used for a number of purposes, including, without limitation, to
-count visitors to the Learning Platforms, to monitor how users navigate
-the Learning Platforms, to count how many e-mails that were sent were
-actually opened or links were actually viewed and to improve your
-experience on the Learning Platforms.</p>
-<p><em><strong>Embedded Scripts.</strong></em> An embedded script is
-programming code that is designed to collect information about your
-interactions with the Learning Platforms, such as the links you click
-on. The code is temporarily downloaded onto your device from our web
-server or a third party service provider, is active only while you are
-connected to the Learning Platforms, and is deactivated or deleted
-thereafter.</p>
+<h3 id="cookies">Cookies</h3><p>When you use our Learning Platforms, Carnegie Learning may store data in “cookies” or similar technology on your devices, which are data files placed on your computer or other device when you visit the Learning Platforms or otherwise access our online content. Carnegie Learning may use cookies for many purposes, including, without limitation, to remember you and your preferences, to collect information about how you use our Learning Platforms, personalize content within the Learning Platforms, and track the pages you’ve visited. We use both session and persistent cookies (which remain on your computer after the browser has been closed). This information allows us to customize your Carnegie Learning experience so that your visit is as relevant and as valuable to you as possible.</p>
+<p>For more information on cookies, visit <a href="http://www.allaboutcookies.org/"><u>http://www.allaboutcookies.org</u></a>.</p>
+<h3 id="web-beacons">Web Beacons</h3><p>We may use web beacons (small graphic images or other web programming code, also known as "1x1 GIFs" or "clear GIFs") and similar technologies on our Learning Platforms. Web beacons can recognize certain types of information on your computer such as cookies, the time and date a page is viewed, and a description of the page where the web beacon is placed. Web beacons or similar technologies may be used for a number of purposes, including, without limitation, to count visitors to the Learning Platforms, to monitor how users navigate the Learning Platforms, to count how many e-mails that were sent were actually opened or links were actually viewed and to improve your experience on the Learning Platforms.</p>
+<h3 id="embedded-scripts">Embedded Scripts</h3><p>An embedded script is programming code that is designed to collect information about your interactions with the Learning Platforms, such as the links you click on. The code is temporarily downloaded onto your device from our web server or a third party service provider, is active only while you are connected to the Learning Platforms, and is deactivated or deleted thereafter.</p>
 <p>In addition, we may use a variety of other technologies that collect
 similar information for security and fraud detection purposes.</p>
-<p><em><strong>Information We Receive from Schools</strong></em></p>
+<h3 id="information-we-receive-from-schools">Information We Receive from Schools</h3>
 <p>We may receive information about you from your School(s). For
 example, the School may provide us your name and email address to set up
 an account on your behalf and/or so that we may contact you, such as to
@@ -209,9 +323,8 @@ Platforms, including to send course reminders and ask for feedback about
 our products and services. The information we collect is subject to this
 Privacy Policy. The information collected and stored by a School remains
 subject to the School’s privacy practices.</p>
-<p><strong>How Does Carnegie Learning Use Information Collected about
-Students?</strong></p>
-<ul>
+<h2 id="how-does-carnegie-learning-use-information-collected-about-students">How Does Carnegie Learning Use Information Collected about Students?</h2>
+<ul class="clean-list">
 <li><p>Allow students to access and use the service as designated by the
 School</p></li>
 <li><p>Help students reset their passwords</p></li>
@@ -248,9 +361,8 @@ through the Learning Platforms are used solely to facilitate student
 assignments, security, and quality assurance purposes.</p>
 <p>Carnegie Learning will not use any information collected about
 students to advertise or market to students or their parents.</p>
-<p><strong>How Does Carnegie Learning Share Information Collected about
-Students?</strong></p>
-<p><em><strong>To And On Behalf Of Schools</strong></em></p>
+<h2 id="how-does-carnegie-learning-share-information-collected-about-students">How Does Carnegie Learning Share Information Collected about Students?</h2>
+<h3 id="to-and-on-behalf-of-schools">To And On Behalf Of Schools</h3>
 <p>As discussed above, we provide the Learning Platforms to students
 through agreements with Schools and on behalf of those Schools.
 Accordingly, Schools (and those who obtain authorized access from the
@@ -273,7 +385,7 @@ administrators authorized to receive that information. In such cases,
 data is held securely and only Carnegie Learning employees and service
 providers directly involved in producing these reports have access to
 students’ personal information.</p>
-<p><em><strong>Service Providers</strong></em></p>
+<h3 id="service-providers">Service Providers</h3>
 <p>In order to provide and support our products, Carnegie Learning may
 contract with third parties and share information required to carry out
 these services with these third parties. These service providers provide
@@ -285,11 +397,9 @@ collected from students only to service providers and third parties who
 are capable of and have agreed to maintain the confidentiality and
 security of that information and to use that personal information only
 to provide the applicable service to us or on our behalf. You may view a
-list of our current service providers here: <a
-href="https://www.carnegielearning.com/student-privacy-policy/third-party-service-providers?hsLang=en"><u>Link</u></a>
-(<a
-href="https://www.carnegielearning.com/student-privacy-policy/third-party-service-providers">https://www.carnegielearning.com/student-privacy-policy/third-party-service-providers</a>)</p>
-<p><em><strong>Administrative and Legal Reasons</strong></em></p>
+list of our current service providers here: <a href="https://www.carnegielearning.com/student-privacy-policy/third-party-service-providers?hsLang=en"><u>Link</u></a>
+(<a href="https://www.carnegielearning.com/student-privacy-policy/third-party-service-providers">https://www.carnegielearning.com/student-privacy-policy/third-party-service-providers</a>)</p>
+<h3 id="administrative-and-legal-reasons">Administrative and Legal Reasons</h3>
 <p>We may disclose personal information about students to third parties
 when necessary to protect the security or integrity of the Learning
 Platforms; take precautions against liability; respond to judicial
@@ -301,7 +411,7 @@ Platforms, or other similar change in ownership (including, during the
 course of any due diligence process), provided that any subsequent owner
 of student’s personal information has agreed to abide by Carnegie
 Learning’s then-current student privacy policy.</p>
-<p><em><strong>Research and Statistical Purposes</strong></em></p>
+<h3 id="research-and-statistical-purposes">Research and Statistical Purposes</h3>
 <p>Carnegie Learning uses de-identified and aggregate data about
 students’ use of our Learning Platforms for product development,
 research or other purposes. We de-identify data by removing direct and
@@ -314,15 +424,13 @@ any third parties to whom it discloses such data from attempting to
 re-identify any de-identified data. We may store de-identified data
 indefinitely. Schools, school districts, and individuals may ask for
 their data to be excluded from any de-identified data sets. To request
-such exclusion, please email <a
-href="mailto:privacy@carnegielearning.com"><u>privacy@carnegielearning.com</u></a>.</p>
+such exclusion, please email <a href="mailto:privacy@carnegielearning.com"><u>privacy@carnegielearning.com</u></a>.</p>
 <p>In addition, for research and other purposes, Carnegie Learning may
 transfer de-identified data to third parties.  For example, we may share
 information such as problems attempted, answers or hint requests for
 each step of the problem, and associated time stamps. We review all
 requests for such de-identified data sets, and we require all recipients
-of de-identified data sets to agree to the <a
-href="https://www.carnegielearning.com/carnegie-learning-private-dataset-terms-of-use/?hsLang=en"><u>Carnegie
+of de-identified data sets to agree to the <a href="https://www.carnegielearning.com/carnegie-learning-private-dataset-terms-of-use/?hsLang=en"><u>Carnegie
 Learning Private Dataset Terms of Use</u></a>
 (https://www.carnegielearning.com/carnegie-learning-private-dataset-terms-of-use),
 which prohibit, among other things, any attempts to re-identify the
@@ -347,7 +455,7 @@ such research. If the research is not exempt from IRB review, an
 Institutional Review Board (IRB) will review the goals and procedures of
 the study, including those related to maintaining privacy of
 information.</p>
-<p><strong>Third-Party Analytics Services</strong></p>
+<h2 id="third-party-analytics-services">Third-Party Analytics Services</h2>
 <p>We may work with analytics providers to provide us with information
 regarding the use of our Learning Platforms. These third parties may set
 and access their own tracking technologies on your devices (including
@@ -359,14 +467,12 @@ internal operations as needed to provide the Learning Platforms. With
 respect to Children, these third parties are bound by contractual or
 other obligations to use the information only for such purpose and to
 keep the information confidential.</p>
-<p><strong>Accessing, Modifying, and Deleting Your
-Information</strong></p>
+<h2 id="accessing-modifying-and-deleting-your-information">Accessing, Modifying, and Deleting Your Information</h2>
 <p>You may be able to review, modify, and delete certain information
 related to your use of our Learning Platforms through your account.
  Schools may ask to review the information that Carnegie Learning has
 collected and retained about a particular student, or request its
-deletion, by contacting us at <a
-href="mailto:privacy@carnegielearning.com"><u>privacy@carnegielearning.com</u></a>.</p>
+deletion, by contacting us at <a href="mailto:privacy@carnegielearning.com"><u>privacy@carnegielearning.com</u></a>.</p>
 <p>If you are a parent or student and would like to access or request
 deletion of any information collected by Carnegie Learning as a result
 of your or your student’s use of our Learning Platforms, please contact
@@ -374,24 +480,22 @@ your School.</p>
 <p>If you are the parent of a Child who uses our Learning Platforms
 through a Private Provider and have questions about our privacy
 practices, or would like to request to access or delete your Child’s
-information, please contact us as indicated in the “<a
-href="https://www.carnegielearning.com/student-privacy-policy#contact_us"><u>Contact
+information, please contact us as indicated in the “<a href="student-privacy-policy.html#contact-us"><u>Contact
 Us</u></a>” section.</p>
-<p><strong>Data Retention</strong></p>
+<h2 id="data-retention">Data Retention</h2>
 <p>Carnegie Learning will retain personal information about students as
 long as required by our agreement with a School or as required by law.
 Carnegie Learning may also delete personal information or other data
 when requested by a School or as provided under a School agreement. The
 School may request a copy of the data or that we retain the data on
-their behalf by emailing their request to <a
-href="mailto:privacy@carnegielearning.com"><u>privacy@carnegielearning.com</u></a> within
+their behalf by emailing their request to <a href="mailto:privacy@carnegielearning.com"><u>privacy@carnegielearning.com</u></a> within
 60 days of such notification.</p>
 <p>Unless otherwise prohibited by an agreement with a School, Carnegie
 Learning may retain aggregated, de-identified, or other non-personal
 data, including curriculum or other content submitted by users when
 using the Learning Platforms as long as needed for our business
 purposes.</p>
-<p><strong>Security</strong></p>
+<h2 id="security">Security</h2>
 <p>Carnegie Learning takes commercially reasonable steps to help protect
 and secure personal information. We have implemented an information
 security program with numerous measures, including administrative,
@@ -405,7 +509,7 @@ of any information you transmit to us. Therefore, each School and any
 student user accessing the Learning Platforms under the School’s
 authorization understands, acknowledges, and agrees that you transmit
 personal information to the Learning Platforms at your own risk.</p>
-<p><strong>Third-Party Links or Content</strong></p>
+<h2 id="third-party-links-or-content">Third-Party Links or Content</h2>
 <p>The Learning Platforms may contain links to other web sites or
 include other content hosted and served by third parties that Carnegie
 Learning does not control. Likewise, our content, including some of our
@@ -415,7 +519,7 @@ Learning and over which we have no control. We may collect Usage
 Information through Carnegie Learning content appearing on third-party
 sites. Carnegie Learning is not responsible for the privacy practices of
 any third party.</p>
-<p><strong>Consent to Transfer of Data</strong></p>
+<h2 id="consent-to-transfer-of-data">Consent to Transfer of Data</h2>
 <p>Carnegie Learning is a United States company. If you are a user of
 the Learning Platforms outside of the United States, by using the
 Learning Platforms and/or providing us with information, you acknowledge
@@ -430,18 +534,16 @@ personal information may be less stringent than the laws in your
 country, and where governments, courts or law enforcement or regulatory
 agencies in those other countries may be able to obtain disclosure of
 that personal information through the laws of those countries.</p>
-<p><strong>Contact Us</strong></p>
+<h2 id="contact-us">Contact Us</h2>
 <p>Carnegie Learning, Inc. is the operator of these Learning Platforms
 and any questions regarding this Privacy Policy and the collection or
 use of personal information should be directed to:</p>
 <p>Carnegie Learning, Inc.</p>
 <p>436 Seventh Avenue, Suite 200</p>
 <p>Pittsburgh, PA 15219</p>
-<p><a
-href="mailto:privacy@carnegielearning.com"><u>privacy@carnegielearning.com</u></a></p>
+<p><a href="mailto:privacy@carnegielearning.com"><u>privacy@carnegielearning.com</u></a></p>
 <p>(888) 851-7094</p>
-<p><strong>Accessing the Learning Platforms through Private
-Provider</strong></p>
+<h2 id="accessing-the-learning-platforms-through-private-provider">Accessing the Learning Platforms through Private Provider</h2>
 <p>The Learning Platforms may be made available through agreements we
 have with organizations who provide specialized education services to
 students, but who are not directly associated with a School (“Private
@@ -459,12 +561,11 @@ student information about students associated with that School.</p>
 <p>If you are the parent of a Child who uses our Learning Platforms
 through a Private Provider and have questions about our privacy
 practices, or would like to request to access or delete your Child’s
-information, please contact us as indicated in the “<a
-href="https://www.carnegielearning.com/student-privacy-policy#contact_us"><u>Contact
+information, please contact us as indicated in the “<a href="student-privacy-policy.html#contact-us"><u>Contact
 Us</u></a>” section above. If you would like more information about how
 the Private Provider handles your personal information, please contact
 the Private Provider.</p>
-<p><strong>Information for California Residents</strong></p>
+<h2 id="information-for-california-residents">Information for California Residents</h2>
 <p>Carnegie Learning collects personal information from users of the
 Learning Platforms as a service provider on behalf of and only in the
 ways permitted by the applicable School agreement.  Carnegie Learning
